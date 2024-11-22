@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+  --main2-color: #195F9B;
+ 
+  --main-color:	#d5f5aa;
+    --second-bg-color: #E5EDF1;
+    --third-bg-color: #82095b;
+    --opt1: 	#fff;
+    --text-color: #000;
+   
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Cantarell", sans-serif;
+}
+
+.navbar-brand  img {
+    max-height: 4.5vw; 
+    display: block;
+    width: 100%;
+            
+}
+
+body{
+    background: var(--main-color);
+    color: var(--text-color);
+}
+.hero-container{
+    position: relative;
+    z-index:100;
+}
+.hero-text{
+    position:relative;
+    z-index:200;
+}
+.hero-backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.36;
+}
